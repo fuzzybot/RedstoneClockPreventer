@@ -1,0 +1,17 @@
+name: RedstoneClockPreventer
+version: 1.2.1
+authors: [MGbeenieboy,fuzzy_bot]
+website: http://craftwood.me/
+dev-url: http://www.spigotmc.org/resources/redstone-clock-preventer.1054/
+main: me.craftwood.redstoneclockpreventer.Main
+softdepend: [WorldGuard]
+description: This plugin is able to prevent or stop redstone clocks which will improve server performance
+commands:
+  rcp:
+    usage: /rcp [reload|version|whitelist] [add|remove] [region]
+    aliases: [redstoneclockpreventor, rscp]
+permissions:
+  rscp.reload:
+    description: Permission to reload the configuration via command
+  rscp.getnotified:
+    description: Notifys about stopped redstone clocks
